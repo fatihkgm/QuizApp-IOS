@@ -16,18 +16,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var falseButton: UIButton!
     
     let quiz = [
-        Question(q: "A slug's blood is green.", a: "True"),
-        Question(q: "Approximately one quarter of human bones are in the feet.", a: "True"),
-        Question(q: "The total surface area of two human lungs is approximately 70 square metres.", a: "True"),
-        Question(q: "In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.", a: "True"),
-        Question(q: "In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place.", a: "False"),
-        Question(q: "It is illegal to pee in the Ocean in Portugal.", a: "True"),
-        Question(q: "You can lead a cow down stairs but not up stairs.", a: "False"),
+        Question(q: "T/F Windows Phone does have a desktop screen.", a: "False"),
+        Question(q: "T/F iTunes is an online service available for iOS devices that allows synchronizing calendar, mail, and contact settings to all configured devices..", a: "False"),
+        Question(q: "A Quick Response code contains a web link that can be used with a mobile device camera..", a: "True"),
+        Question(q: "Sideloading is when you purchase apps through Google Play on your mobile device..", a: "False"),
+        Question(q: "Pairing of a Bluetooth device with a mobile device requires a PIN to be entered on most occasions..", a: "True"),
+        Question(q: "The default setting for iCloud is OFF..", a: "True"),
+        Question(q: "Xcode is an interactive environment that can be used to learn, test, and evaluate Swift code..", a: "True"),
         Question(q: "Google was originally called 'Backrub'.", a: "True"),
-        Question(q: "Buzz Aldrin's mother's maiden name was 'Moon'.", a: "True"),
-        Question(q: "The loudest sound produced by any animal is 188 decibels. That animal is the African Elephant.", a: "False"),
-        Question(q: "No piece of square dry paper can be folded in half more than 7 times.", a: "False"),
-        Question(q: "Chocolate affects a dog's heart and nervous system; a few ounces are enough to kill a small dog.", a: "True")
+        Question(q: "the operands (numbers) are on both sides of the operator (symbol) true of false'.", a: "True"),
+        Question(q: "you can make something a double by creating 10.0 or 12.0 but during divinsion you can also complete Double(area) / number ***.", a: "True"),
+        Question(q: "know where to put the uniary operator for example if you put it in the front ++levelScore; you will add one to the totalScore.", a: "True"),
+        Question(q: "An array is an ordered list of values?.", a: "True")
     ]
     
     var questionNumber = 0

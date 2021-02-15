@@ -15,9 +15,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var trueButton: UIButton!
     @IBOutlet weak var falseButton: UIButton!
     
+    let quiz = [
+        "four ",
+        "two",
+        "one"
+    ]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        questionLabel.text = quiz[0]
         
     }
 

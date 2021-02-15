@@ -16,16 +16,30 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2021-02-09 at 1.31.58 AM" translatesAutoresizingMaskIntoConstraints="NO" id="URh-rH-Ik2">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="URh-rH-Ik2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4ha-7o-dse"/>
+                            <constraint firstItem="URh-rH-Ik2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="IqW-hY-G68"/>
+                            <constraint firstItem="URh-rH-Ik2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="MdA-sV-guB"/>
+                            <constraint firstItem="URh-rH-Ik2" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="e97-3J-Pbx"/>
+                            <constraint firstItem="URh-rH-Ik2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rcz-Wr-Qdr"/>
+                            <constraint firstAttribute="bottom" secondItem="URh-rH-Ik2" secondAttribute="bottom" id="xhc-3t-Lip"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="16" y="333"/>
+            <point key="canvasLocation" x="15.942028985507248" y="332.8125"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Screen Shot 2021-02-09 at 1.31.58 AM" width="192.5" height="368"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

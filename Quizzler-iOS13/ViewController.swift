@@ -21,15 +21,22 @@ class ViewController: UIViewController {
         "one"
     ]
     
+    var questionNumber = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        questionLabel.text = quiz[0]
+        updateUI()
         
     }
 
     @IBAction func answerButton(_ sender: UIButton) {
-   
+        
+        questionNumber += 1
+        updateUI()
+    }
+    
+    func updateUI() {
+        questionLabel.text = quiz[questionNumber]
     }
     
 }
